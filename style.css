@@ -1,0 +1,11 @@
+form * {
+    display: block;
+}
+nav {
+    min-height: 100vh;
+    background-image: url(./prj-1/img/Bitmap.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
