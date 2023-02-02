@@ -14,4 +14,10 @@ ul {
     color: #000;
     display: flex;
 }
+.sec2 {
+    display: inline-flex;
+}
+iframe {
+    float: left;
+}
 
