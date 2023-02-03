@@ -3,9 +3,75 @@ form * {
 }
 nav {
     min-height: 100vh;
-    background-image: url(./prj-1/img/Bitmap.jpg);
-    display: block;
+    background-image: url(./prj-1/img/Bitmap.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+.nav-line {
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+    min-width: 300px;
+}
+
+.social {
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style: none;
+    min-width: 1180px;
+    
+}
+
+li {
+    margin-left: 30px;
+}
+.tittle {
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 65px;
+    font-family: Impact, fantasy;
+    font-weight: 200;
+    color: antiquewhite;
+}
+p {
+    margin-left: 400px;
+    margin-top: 300px;
+}
+.btn-one {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(226, 123, 5);
+    margin-left: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.span-tittle {
+    color: antiquewhite;
+    background-color: rgba(132, 130, 133, 0.815);
+    font-family: cursive;
+    font-weight: 200;
+    opacity: 50%;
+}
+aside {
+    width: 600px;
+    display: inline;
+    height: 200px;
+}
+
+.wrapper {
+    margin-left: 1150px;
+    
+}
+.article-header {
+    color: antiquewhite;
+    
 }
