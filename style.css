@@ -61,17 +61,24 @@ a {
     font-weight: 200;
     opacity: 50%;
 }
-aside {
-    width: 600px;
-    display: inline;
-    height: 200px;
+.img-prog {
+    width: 150px;
+    height: 150px;
+    float: left;
 }
 
 .wrapper {
     margin-left: 1150px;
-    
+    border: 2px solid white;
+    margin-right: 300px;
+    height: 150px;
+    background-color: antiquewhite;
 }
 .article-header {
     color: antiquewhite;
     
+}
+.span-aside {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
