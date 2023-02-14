@@ -84,12 +84,11 @@ a {
 
 .footer {
     background-color: rgb(41, 39, 39);
-}
-.nav__footer {
     background-image: none;
     display: grid;
     grid-template-columns: auto auto;
 }
+
 .benefits__items {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -143,12 +142,12 @@ a {
     list-style: none;
     font-size: large;
     color: antiquewhite;
-    margin-bottom: 350px;
+    
 }
 .footer__social {
     list-style: none;
     display: inline-flex;
-    margin-bottom: 700px;
+    
 }
 .footer__text {
     color: antiquewhite;
