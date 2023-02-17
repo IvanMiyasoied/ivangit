@@ -191,3 +191,28 @@ a {
     display:inline-flex;
     
 }
+.FAQ {
+    margin-top:  50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content: center;
+    gap: 30px;
+
+}
+.FAQ__box {
+    border: 1px solid black;
+    width: 770px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    ;
+}
+
+.FAQ__p {
+    visibility: hidden;
+}
+
+
