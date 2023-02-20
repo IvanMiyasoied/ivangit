@@ -200,6 +200,12 @@ a {
     gap: 30px;
 
 }
+.FAQ__button {
+    height: 20px;
+    align-self: center;
+    border:none ;
+    outline: none;
+}
 .FAQ__box {
     border: 1px solid black;
     width: 770px;
@@ -207,12 +213,12 @@ a {
     box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
     border-radius: 3px;
     padding: 5px;
-    display: flex;
-    ;
+    display: inline-flex;
+    justify-content: space-between;
+    
 }
 
-.FAQ__p {
-    visibility: hidden;
+.FAQ__span {
+    max-width: 750px;
 }
-
 
