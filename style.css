@@ -7,9 +7,19 @@ nav {
 }
 .credo {
     display: flex;
-    border: 1px solid black;
-    
-    
+    flex-direction: row;
+    min-height: 432px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFF5E4;
+}
+.credo__p {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+.credo__svg {
+    padding: 5px;
 }
 .nav-line {
     display: inline-flex;
@@ -31,7 +41,6 @@ li {
 }
 .tittle {
     margin-left: 400px;
-    margin-top: 10px;
     font-size: 72px;
     font-family: 'Oswald', sans-serif;
     color: antiquewhite;
@@ -44,6 +53,13 @@ li {
     background-color: rgb(226, 123, 5);
     margin-left: 400px;
 }
+.btn-two {
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    background-color: #555555;
+    border: none;
+    height: 43px;
+}
 
 a {
     text-decoration: none;
@@ -53,9 +69,15 @@ a {
 .span-tittle {
     color: antiquewhite;
     background-color: rgba(132, 130, 133, 0.815);
-    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 200;
     opacity: 50%;
+    margin-left: 400px;
+    margin-top: 100px;
+     
+}
+.nav__p {
+    margin-top: 200px;
 }
 .img-prog {
     width: 150px;
@@ -128,6 +150,20 @@ a {
     height: 350px;
     width: 470px;
     border: 1px solid black;
+}
+.about {
+    display: inline-flex;
+    gap: 100px;
+    float: right;
+}
+.about__wrapper {
+    height: 624px;
+    background: linear-gradient(135deg, #FFEBC9 0%, #F5A623 100%);
+    border-radius: 3px;
+}
+.about__iframe {
+    margin-top: 48px;
+    transform: translateX(48px);
 }
 .footer {
     background-color: rgb(41, 39, 39);
