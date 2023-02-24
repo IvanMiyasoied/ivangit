@@ -101,10 +101,22 @@ a {
     font-size: large;
 }
 
-
+.benefits {
+    margin-top: 92px;
+    background-color: #FFFFFF;
+}
+.benefits__span {
+    display: inline-block;
+    margin-left: 790px;
+    margin-bottom: 50px;
+}
+.benefits__br {
+    margin-left: 800px;
+}
 .benefits__items {
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-items: center;
     
 }
 .benefits__text {
@@ -152,9 +164,29 @@ a {
     border: 1px solid black;
 }
 .about {
-    display: inline-flex;
-    gap: 100px;
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: space-around;
+    width: 75vw;
+   margin-left: 250px;
+    
+}
+.about__text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.about__tittle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 56px;
+}
+.about__article {
+    width: 570px;
+}
+.about__span {
     float: right;
+    margin-right: 325px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 .about__wrapper {
     height: 624px;
