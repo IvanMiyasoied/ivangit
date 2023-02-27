@@ -15,7 +15,7 @@ nav {
     background-color: #FFF5E4;
 }
 .credo__p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
     opacity: 50%;
 }
 .credo__svg {
@@ -97,7 +97,7 @@ a {
     
 }
 .span-aside {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: large;
 }
 
@@ -106,14 +106,13 @@ a {
     background-color: #FFFFFF;
 }
 .benefits__span {
-    display: inline-block;
     margin-left: 790px;
-    margin-bottom: 50px;
 }
 .benefits__br {
-    margin-left: 800px;
+    margin-left: 810px;
 }
 .benefits__items {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-items: center;
@@ -132,6 +131,15 @@ a {
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+.benefits__descr {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+.benefits__p {
+    margin-left: 30px;
+}
 
 .benefits__wrapper-one {
     height: 350px;
@@ -147,6 +155,7 @@ a {
     height: 350px;
     width: 270px;
     border: 1px solid black;
+    background-color: #333333;
 }
 .benefits__wrapper-four {
     height: 350px;
@@ -157,6 +166,7 @@ a {
     height: 350px;
     width: 270px;
     border: 1px solid black;
+    background-color: #333333;
 }
 .benefits__wrapper-six {
     height: 350px;
@@ -215,13 +225,14 @@ a {
     
 }
 .footer__text {
+    margin-top: 20px;
     color: antiquewhite;
     margin-left: 60px;
     
 }
 .footer__logo {
     margin-left: 75px;
-    
+    margin-top: 10px;
 }
 .line {
     margin-left: 150px;
@@ -284,7 +295,9 @@ button {
     height: 30px;
 }
 
-
+.FAQ__section {
+    height: 700px;
+}
 .FAQ {
     margin-top:  50px;
     margin-bottom: 50px;
@@ -294,9 +307,12 @@ button {
     gap: 30px;
 
 }
+
 .FAQ__button {
     height: 20px;
+    background: #FFFFFF;
     align-self: center;
+    margin-top: 10px;
     border:none ;
     outline: none;
 }
@@ -311,9 +327,70 @@ button {
     justify-content: space-between;
     
 }
-
+.FAQ__text {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 900px;
+    font-family: 'Oswald', sans-serif;
+}
+.FAQ__tittle {
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
 .FAQ__span {
-    max-width: 750px;
-   
+    margin-left: 760px;
+}
+.FAQ__br {
+    margin-left: 860px;
 }
 
+#span1 {
+    max-width: 750px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 580px;
+    z-index: -2;
+}
+
+#span2 {
+    max-width: 750px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 580px;
+    z-index: -2;
+}
+#span3 {
+    max-width: 750px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 580px;
+    z-index: -2;
+}
+
+#span1:target {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    transition-property: font-size;
+    transition-delay: 4s;
+    font-size: 0;
+}
+#span2:target {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    transition-property: font-size;
+    transition-delay: 4s;
+    font-size: 0;
+}
+#span3:target{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    transition-property: font-size;
+    transition-delay: 4s;
+    font-size: 0;
+}
