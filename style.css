@@ -1,46 +1,54 @@
-nav {
+.header {
     min-height: 100vh;
     background-image: url(./prj-1/img/Bitmap.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
-.credo {
+
+nav {
     display: flex;
-    flex-direction: row;
-    min-height: 432px;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Oswald', sans-serif;
-    background-color: #FFF5E4;
+    height: 50px;
+    max-width: 1170;
 }
-.credo__p {
-    font-family: 'Oswald', sans-serif;
-    opacity: 50%;
+
+.logo {
+    margin-top: 40px;
+    margin-left: 200px;
 }
-.credo__svg {
-    padding: 5px;
-}
-.nav-line {
-    display: inline-flex;
+.nav__list {
+    display: flex;
+    justify-items: flex-start;
+    margin-top: 50px;
     justify-content: space-around;
     list-style: none;
-    min-width: 300px;
+    width: 382px;
 }
 
 .social {
-    display: inline-flex;
-    justify-content: flex-end;
+    width: 382px;
+    margin-top: 40px;
+    margin-left: 550px;
+    display:flex;
     list-style: none;
-    min-width: 1180px;
-    
 }
 
+.nav__p {
+    width: 100px;
+    color: antiquewhite;
+    background-color: rgba(132, 130, 133, 0.815);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    opacity: 50%;
+    margin-left: 300px;
+    margin-top: 300px;
+}
 li {
     margin-left: 30px;
 }
 .tittle {
-    margin-left: 400px;
+    margin-left: 300px;
     font-size: 72px;
     font-family: 'Oswald', sans-serif;
     color: antiquewhite;
@@ -51,7 +59,7 @@ li {
     width: 45px;
     height: 45px;
     background-color: rgb(226, 123, 5);
-    margin-left: 400px;
+    margin-left: 300px;
 }
 .btn-two {
     font-family: 'Oswald', sans-serif;
@@ -66,39 +74,60 @@ a {
     color: antiquewhite;
 }
 
-.span-tittle {
+
+.img-proj {
+    width: 170px;
+    height: 192px;
+    float: left;
+}
+
+main {
+    position: relative;
+}
+.aside  {
+    position: absolute;
+    right: 135px;
+    top: -64px;
+    transform: translateY(-100%);
+}
+.aside__wrapper {
+    border: 2px solid white;
+    height: 192px;
+    width: 470px;
+    background-color: antiquewhite;
+}
+.aside__info {
+    width: 150px;
     color: antiquewhite;
     background-color: rgba(132, 130, 133, 0.815);
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     opacity: 50%;
-    margin-left: 400px;
-    margin-top: 100px;
-     
-}
-.nav__p {
-    margin-top: 200px;
-}
-.img-prog {
-    width: 150px;
-    height: 150px;
-    float: left;
 }
 
-.wrapper {
-    margin-left: 1150px;
-    border: 2px solid white;
-    margin-right: 300px;
-    height: 150px;
-    background-color: antiquewhite;
-}
-.article-header {
-    color: antiquewhite;
-    
-}
-.span-aside {
+.aside__titlle {
     font-family: 'Oswald', sans-serif;
     font-size: large;
+}
+.aside__subtitlle {
+    opacity: 50%;
+}
+
+.credo {
+    display: flex;
+    min-height: 432px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFF5E4;
+}
+.credo__p {
+    width: 270px;
+    font-family: 'Oswald', sans-serif;
+    opacity: 50%;
+}
+.credo__svg {
+    padding: 5px;
 }
 
 .benefits {
@@ -207,40 +236,8 @@ a {
     margin-top: 48px;
     transform: translateX(48px);
 }
-.footer {
-    background-color: rgb(41, 39, 39);
-    background-image: none;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.footer__li {
-    list-style: none;
-    font-size: large;
-    color: antiquewhite;
-    
-}
-.footer__social {
-    list-style: none;
-    display: inline-flex;
-    
-}
-.footer__text {
-    margin-top: 20px;
-    color: antiquewhite;
-    margin-left: 60px;
-    
-}
-.footer__logo {
-    margin-left: 75px;
-    margin-top: 10px;
-}
-.line {
-    margin-left: 150px;
-}
-.footer__rights {
-    color: antiquewhite;
-    margin-left: 750px;
-}
+
+
 .creators__text {
     margin-left: 900px;
     font-size: 18px;
@@ -393,4 +390,38 @@ button {
     transition-property: font-size;
     transition-delay: 4s;
     font-size: 0;
+}
+.footer {
+    background-color: rgb(41, 39, 39);
+    background-image: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer__li {
+    list-style: none;
+    font-size: large;
+    color: antiquewhite;
+    
+}
+.footer__social {
+    list-style: none;
+    display: inline-flex;
+    
+}
+.footer__text {
+    margin-top: 20px;
+    color: antiquewhite;
+    margin-left: 60px;
+    
+}
+.footer__logo {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.line {
+    margin-left: 150px;
+}
+.footer__rights {
+    color: antiquewhite;
+    margin-left: 750px;
 }
