@@ -131,6 +131,7 @@ main {
 }
 
 .benefits {
+    height: 1150px;
     margin-top: 92px;
     background-color: #FFFFFF;
     
@@ -187,37 +188,48 @@ main {
     color: antiquewhite;
 }
 .benefits__wrapper-one {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
     height: 350px;
     width: 470px;
-    border: 1px solid black;
 }
 .benefits__wrapper-two {
-    box-shadow: 10px 10px 40px rgb(95, 93, 93);
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.5);
+    border-radius: 3px;
     height: 350px;
     width: 370px;
-    border: 1px solid black;
 }
 .benefits__wrapper-three {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
     height: 350px;
     width: 270px;
-    border: 1px solid black;
     background-color: #333333;
 }
 .benefits__wrapper-four {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
     height: 350px;
     width: 370px;
-    border: 1px solid black;
 }
 .benefits__wrapper-five {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
     height: 350px;
     width: 270px;
-    border: 1px solid black;
     background-color: #333333;
 }
 .benefits__wrapper-six {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
     height: 350px;
     width: 470px;
-    border: 1px solid black;
 }
 .about {
     background-color: #FFFFFF;
@@ -274,12 +286,23 @@ main {
 
 .creators {
     background-color: #FFF5E4;
-    margin-top: 92px;
+    height: 812px;
 }
 .creators__text {
+    padding-top: 92px;
     margin-left: 900px;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
+}
+.creators__descr {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+.creators__p {
+    margin-left: 30px;
+    color: #858282;
 }
 .creators__items {
     display: grid;
@@ -295,7 +318,9 @@ main {
 .creators__wrapper {
     height: 370px;
     width: 370px;
-    border: 1px solid black;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
+    border-radius: 3px;
     margin: 0;
 }
 
@@ -352,7 +377,7 @@ button {
     outline: none;
 }
 .FAQ__box {
-    border: 1px solid black;
+    border-left: 3px solid  #F5A623;
     width: 770px;
     background: #FFFFFF;
     box-shadow: 10px 10px 40px rgba(54, 33, 0, 0.102129);
