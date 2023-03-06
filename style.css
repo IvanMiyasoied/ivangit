@@ -133,26 +133,39 @@ main {
 .benefits {
     margin-top: 92px;
     background-color: #FFFFFF;
+    
 }
 .benefits__span {
-    margin-left: 790px;
+    display: flex;
+    justify-content: center;
+    color: #858282;
 }
 .benefits__br {
-    margin-left: 810px;
+    display: flex;
+    justify-content: center;
+    color: #858282;
 }
 .benefits__items {
+    position: relative;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
+    display: flex;
+    align-content: center;
+    width: 65%;
+    row-gap: 50px;
+    margin-left: 328px;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .benefits__text {
-    font-size: 18px;
-    font-weight: 100;
-    text-align: center;
-    margin-left: 900px;
     font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #686565;
+    font-size: 18px;
+    height: 32px;
+    background-color: #FFF5E4;
+    text-align: center;
 }
 .benefits__tittle {
     font-size: 56px;
@@ -168,14 +181,18 @@ main {
 }
 .benefits__p {
     margin-left: 30px;
+    color: #858282;
 }
-
+#span--black {
+    color: antiquewhite;
+}
 .benefits__wrapper-one {
     height: 350px;
     width: 470px;
     border: 1px solid black;
 }
 .benefits__wrapper-two {
+    box-shadow: 10px 10px 40px rgb(95, 93, 93);
     height: 350px;
     width: 370px;
     border: 1px solid black;
@@ -207,25 +224,42 @@ main {
     display:flex;
     justify-content: space-around;
     width: 75vw;
-   margin-left: 250px;
+    margin-left: 250px;
+    margin-top: 176px;
+    margin-bottom: 176px;
     
 }
 .about__text {
     font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #686565;
     font-size: 18px;
+    width: 49px;
+    height: 32px;
+    background-color: #FFF5E4;
+
 }
 .about__tittle {
     font-family: 'Oswald', sans-serif;
     font-size: 56px;
+    font-weight: 700;
+    color: #4b4b4b;
 }
 .about__article {
     width: 570px;
 }
+.about__story {
+    color: #858282;
+}
 .about__span {
     float: right;
     margin-right: 325px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
+}
+.about__founder {
+    margin-top: 7px;
 }
 .about__wrapper {
     height: 624px;
@@ -235,9 +269,13 @@ main {
 .about__iframe {
     margin-top: 48px;
     transform: translateX(48px);
+    box-shadow: -10px 10px 40px #616060;
 }
 
-
+.creators {
+    background-color: #FFF5E4;
+    margin-top: 92px;
+}
 .creators__text {
     margin-left: 900px;
     font-size: 18px;
